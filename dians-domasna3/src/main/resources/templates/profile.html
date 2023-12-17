@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            height: 1000px;
+        }
+
+        #find_your_wine {
+            width: 300px;
+            height: 200px;
+        }
+        h2
+        {
+            color: firebrick;
+        }
+        #user-photo-big
+        {
+            top: 200px;
+            width: 400px;
+            height: 400px;
+        }
+        #Home
+        {
+            position: absolute;
+            top: 20px;
+            left: 500px;
+            margin-left: 200px;
+        }
+        #sip_into {
+            width: 200px;
+            margin-top: 200px; /* Adjust the margin as needed */
+        }
+
+        #searchh {
+            position: absolute;
+            top: 0;
+            right: 400px;
+            width: 200px;
+            height: 200px;
+        }
+
+        #user
+        {
+            position: absolute;
+            top: 0;
+            right: 200px;
+            width: 100px;
+            height: 100px;
+
+        }
+        #favoritewineries {
+            position: absolute;
+            top: 50%; /* Center vertically */
+            right: 0;
+            transform: translateY(-50%); /* Adjust for vertical centering */
+        }
+        .slikatext
+        {
+            display: inline-block;
+            padding: 1px;
+        }
+        #user-photo{
+            position: absolute;
+            top: 0;
+            right: 30px;
+            width: 100px;
+            height: 100px;
+        }
+        #google_maps
+        {
+            position: absolute;
+            top: 200px;
+            right: 600px;
+            width: 200px;
+            height: 200px;
+        }
+        #bar {
+            background-color: firebrick;
+            width: 100%;
+            height: 80px;
+            position: relative; /* Add relative positioning */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+        }
+
+        #bar form {
+            margin: 10px; /* Add some margin between buttons */
+        }
+
+        #bar button {
+            border-radius: 12px;
+            padding: 15px; /* Adjust padding */
+            background: firebrick;
+            color: white; /* Add text color */
+            border: none; /* Remove border */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="find_your_wine" class="sliki">
+    <img th:src="@{Vinarii/Find_your_wine.png}"/>
+</div>
+<div id="sip_into" class="sliki">
+    <img th:src="@{Vinarii/Sip into.png}">
+</div>
+<div id="Home">
+    <h1 style="color: firebrick">
+        Profile
+    </h1>
+</div>
+<div id="searchh">
+    <th:block>
+        <label for="Search"></label>
+        <input type="text" id="Search" name="searchTerm" placeholder="Search">
+        <button type="submit">Search</button>
+    </th:block>
+</div>
+<div id="user">
+    <h3  style="color:firebrick"  th:text="${User.getUsername()}?:'User'"/>
+</div>
+<div id="user-photo">
+    <img th:src="@{Vinarii/user-photo.png}">
+</div>
+<div id="users">
+<div id="user-photo-big" class="slikatext">
+    <img th:src="@{Vinarii/user-photo.png}">
+</div>
+    <section class="slikatext">
+        <h2 th:text="${User.getName()}"></h2>
+        <h2 th:text="${User.getSurname()}"></h2>
+        <h2 th:text="${User.getAddress()}">:</h2>
+        <h2 th:text="${User.getLocation()}"></h2>
+    </section>
+</div>
+<div id="favoritewineries">
+    <img th:src="@{Vinarii/favorite wineries.png}">
+</div>
+<div id="bar">
+    <form th:method="POST" th:action="@{/home}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >Home</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/wineries-redirect}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >Wineries</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/Profile-redirect}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >Profile</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/Discover-redirect}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >Discover</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/About-us-redirect}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >About us</button>
+    </form>
+</div>
+</body>
+</html>

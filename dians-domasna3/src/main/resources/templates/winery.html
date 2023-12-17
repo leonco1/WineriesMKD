@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            height: 100%;
+        }
+
+        #find_your_wine {
+            width: 300px;
+            height: 200px;
+        }
+        #Home
+        {
+            position: absolute;
+            top: 20px;
+            left: 500px;
+            margin-left: 200px;
+        }
+
+
+        #user
+        {
+            position: absolute;
+            top: 0;
+            right: 200px;
+            width: 100px;
+            height: 100px;
+
+        }
+        #user-photo{
+            position: absolute;
+            top: 0;
+            right: 30px;
+            width: 100px;
+            height: 100px;
+        }
+
+        #bar {
+            background-color: firebrick;
+            width: 100%;
+            height: 80px;
+            left: 0;
+            bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+        }
+        #bar-div
+        {
+            margin-top: 300px;
+            margin-bottom: -200px;
+            width: 100%;
+            height: 600px;
+        }
+
+        #bar form {
+            margin: 10px; /* Add some margin between buttons */
+        }
+
+        #bar button {
+            border-radius: 12px;
+            padding: 15px; /* Adjust padding */
+            background: firebrick;
+            color: white; /* Add text color */
+            border: none; /* Remove border */
+            cursor: pointer;
+        }
+        #rating
+        {
+            margin-top: 300px;
+            margin-bottom: -200px;
+        }
+        #description
+        {
+            width: 100%;
+            height: 50%;
+            margin-right: -700px;
+            margin-top: -400px;
+        }
+        #crud
+        {
+            margin-left: 500px;
+        }
+    </style>
+</head>
+<body>
+<div id="find_your_wine" class="sliki">
+    <img th:src="@{/Vinarii/Find_your_wine.png}"/>
+</div>
+<div id="Home">
+    <h1 style="color: firebrick">
+        Winery
+    </h1>
+</div>
+
+<div id="user">
+    <h3  style="color:firebrick"  th:text="${username}?:'User'"/>
+</div>
+<div id="user-photo">
+    <img th:src="@{/Vinarii/user-photo.png}">
+</div>
+<div id="rating">
+    <p style="color: firebrick; font-size: 24px; font-style: italic; display: inline;">Selected winery </p>
+    <p style="color: pink; font-size: 18px; display: inline;" th:text="${wineries.getName()}"></p><br/>
+    <img  style="width: 500px;height: 200px" th:src="@{/Vinarii/winery-rating.png}">
+    <br/>
+    <p style="color: firebrick; font-size: 24px; font-style: italic; display: inline;">Location </p>
+    <p style="color: pink; font-size: 18px; display: inline;" th:text="Gradsko"></p><br/>
+</div>
+<div id="description" style="margin-left: auto;">
+    <h3 style="color: firebrick">Description:</h3>
+    <p style="color: pink; font-size: 18px">Discover the charm of [Stobi], a boutique vineyard nestled in [Gradsko].<br> With a commitment to artisanal craftsmanship, our winery combines tradition and innovation to produce exquisite wines. <br>From our sun-drenched vineyards to the cellar, each bottle reflects our passion for creating memorable, distinct flavors that capture the essence of our unique terroir.</p>
+</div>
+<form action="/Winery/add-form" th:if="${admin != null}" method="GET">
+    <input type="submit" value="Add wine">
+</form>
+
+<div id="crud"  th:if="${admin != null}" th:each="wine:${wineries.getWines()}">
+    <input type="radio"  name="Name" id="Name" th:value="${wine.getName()}" th:text="${wine.getName()}">
+    <a th:href="'/Winery/edit-form/'+${wine.getId()}"><button type="button">Edit</button></a>
+    <a th:href="'/Winery/delete/'+${wine.getId()}"><button type="button">Delete</button></a>
+</div>
+
+<div id="bar-div">
+<div id="bar">
+    <form th:method="POST" th:action="@{/home}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >Home</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/wineries-redirect}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >Wineries</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/Profile-redirect}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >Profile</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/Discover-redirect}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >Discover</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/About-us-redirect}">
+        <button style=" border-radius: 12px; padding:30px; background: firebrick " >About us</button>
+    </form>
+</div>
+</div>
+</body>
+</html>

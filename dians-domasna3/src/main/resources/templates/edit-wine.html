@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:method="POST" th:action="@{'/Winery/edit-wine/{id}'(id=${wine.getId()})}">
+    <th:block>
+        <input type="text" th:value="(${wine}!=null ? ${wine.getPrice()}: '')" id="price" name="price"  placeholder="Enter price">
+        <br>
+        <input type="text" name="size" th:value="(${wine}!=null ? ${wine.getSize()} : '')" placeholder="Enter size">
+        <br>
+        <button type="submit">Edit Wine</button>
+    </th:block>
+</form>
+</body>
+</html>
