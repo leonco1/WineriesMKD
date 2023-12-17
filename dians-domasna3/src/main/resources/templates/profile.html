@@ -101,6 +101,11 @@
             border: none; /* Remove border */
             cursor: pointer;
         }
+        #edit
+        {
+            width: 200px;
+            right: 100px;
+        }
     </style>
 </head>
 <body>
@@ -129,6 +134,10 @@
     <img th:src="@{Vinarii/user-photo.png}">
 </div>
 <div id="users">
+    <div id="edit">
+        <a th:href="'/profile/edit-form'"><button type="button">Edit</button></a>
+
+    </div>
 <div id="user-photo-big" class="slikatext">
     <img th:src="@{Vinarii/user-photo.png}">
 </div>
@@ -139,6 +148,7 @@
         <h2 th:text="${User.getLocation()}"></h2>
     </section>
 </div>
+
 <div id="favoritewineries">
     <img th:src="@{Vinarii/favorite wineries.png}">
 </div>

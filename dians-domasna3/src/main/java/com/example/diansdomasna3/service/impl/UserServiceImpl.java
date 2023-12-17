@@ -35,4 +35,12 @@ public class UserServiceImpl implements UserService {
     public Optional<User> Authenticate(String username, String password) {
         return userRepository.findByUsernameAndPassword(username,password);
     }
+
+    @Override
+    public Optional<User> editUser(Long id,String address) {
+        User user=this.userRepository.getReferenceById(id);
+        user.setAddress(address);
+        this.userRepository.save(user);
+        return Optional.of(user);
+    }
 }
