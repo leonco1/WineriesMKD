@@ -1,0 +1,106 @@
+    <!DOCTYPE html>
+    <html lang="" xmlns="http://www.w3.org/1999/xhtml"
+          xmlns:th="http://www.thymeleaf.org">
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            body
+            {height: 600px}
+
+            #find_your_wine
+            {
+                width: 300px;
+                height: 300px;
+                float:left;
+
+            }
+            #information {
+                width: 1000px;
+                height: 100px;
+                text-align: center;
+                margin-left: 200px;
+                padding: 20px; /* Add padding to create space around the content */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .login_register {
+                margin-top: 20px; /* Adjust the top margin as needed */
+            }
+            #searchh
+            {
+                float: right;
+                width: 200px;
+                margin-top: 50px;
+                height: 200px;
+            }
+            #Grozje
+            {
+                width: 500px;
+                height: 500px;
+                float: right;
+            }
+            #login
+            {
+                background-color: firebrick;
+                width: 100px;
+                height: 50px;
+                border-radius: 12px;
+            }
+            #register
+            {
+                background-color: firebrick;
+                width: 100px;
+                height: 50px;
+                border-radius: 12px;
+            }
+            .sliki
+            {
+                display: inline-block;
+            }
+            #Elevate
+            {
+                width: 300px;
+                height: 300px;
+                position: relative;
+                bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+    <div id="find_your_wine" class="sliki">
+        <img th:src="@{Vinarii/Find_your_wine.png}"/>
+    </div>
+    <div id="searchh">
+        <th:block>
+            <label for="Search"></label>
+            <input type="text" id="Search" name="searchTerm" placeholder="Search">
+            <button type="submit">Search</button>
+        </th:block>
+    </div>
+    <div id="Grozje" class="sliki">
+        <img th:src="@{Vinarii/Grozje.png}"/>
+    </div>
+    <div id="information">
+        <div>
+            <form th:method="POST" th:action="@{/Starter/login-start}">
+                <label for="login">
+                    <button id="login" type="submit">Login</button>
+                </label>
+            </form>
+        </div>
+        <div class="login_register">
+            <form th:method="POST" th:action="@{/Starter/register-start}">
+            <label for="register">
+                <button id="register">Register</button>
+            </label>
+            </form>
+        </div>
+    </div>
+    <div id="Elevate">
+        <img th:src="@{Vinarii/Elevate.png}"/>
+    </div>
+    </body>
+    </html>
