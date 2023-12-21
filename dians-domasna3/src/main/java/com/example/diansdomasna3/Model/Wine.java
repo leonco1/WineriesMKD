@@ -33,6 +33,8 @@ public class Wine {
     @ManyToOne
     @JoinColumn(name = "winery_Name")
     Wineries winery;
+    @ManyToOne
+    User user;
     public Wine() {
 
     }

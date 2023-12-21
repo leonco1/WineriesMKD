@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"><head>
+    <meta charset="UTF-8">
+    <title>Shopping-Cart</title>
+    <style>
+        body{
+            margin: auto;
+            width: 500px;
+        }
+        h1{
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+<h1 th:text="'Shopping Cart for: '+${user.getName()}"></h1>
+<div>
+    <div>
+        <ul>
+            <div>
+            <li th:each="wine : ${wines}">
+                <span th:text="'Name of wine is:  '+ ${wine.getName()} "></span>
+                <span th:text="'Price:  '+${wine.getPrice()}"></span>
+                <span th:text="'WineType:  '+${wine.getWineType()}"></span>
+                <span th:text="'Year:  '+${wine.getYear()}"></span>
+                <span th:text="'Winery:  '+${winery.getName()}"></span>
+                    <a th:href="'/shopping-cart/remove/'+${shoppingCart.getId()} +'/'+${wine.getId()}">
+                        <button type="button">Delete</button>
+                    </a>
+            </div>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <form th:method="POST" th:action="'shopping-cart/add-to/'+${shoppingCart.getId()}">
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+<a href="/home">Back to Home</a>
+</div>
+</body>
+</html>

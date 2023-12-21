@@ -69,14 +69,7 @@
             width: 100px;
             height: 100px;
         }
-        #google_maps
-        {
-            position: absolute;
-            top: 200px;
-            right: 600px;
-            width: 200px;
-            height: 200px;
-        }
+        
         #bar {
             background-color: firebrick;
             width: 100%;
@@ -136,7 +129,6 @@
 <div id="users">
     <div id="edit">
         <a th:href="'/profile/edit-form'"><button type="button">Edit</button></a>
-
     </div>
 <div id="user-photo-big" class="slikatext">
     <img th:src="@{Vinarii/user-photo.png}">
@@ -146,11 +138,17 @@
         <h2 th:text="${User.getSurname()}"></h2>
         <h2 th:text="${User.getAddress()}">:</h2>
         <h2 th:text="${User.getLocation()}"></h2>
+        <h2>Bought wine:</h2>
+        <th:block >
+            <li th:each="wine:${WineList}">
+                <ul th:text="${wine.getName()}"></ul>
+            </li>
+        </th:block>
     </section>
 </div>
 
 <div id="favoritewineries">
-    <img th:src="@{Vinarii/favorite wineries.png}">
+    <img th:src="@{Vinarii/favorite wineries.png}" alt="">
 </div>
 <div id="bar">
     <form th:method="POST" th:action="@{/home}">

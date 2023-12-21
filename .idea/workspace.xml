@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/BootStrap/DataHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/BootStrap/DataHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/DiansDomasna3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/DiansDomasna3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wineries.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wineries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/enumerations/WineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/enumerations/WineType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/InMemoryRepository/InMemoryWineryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/InMemoryRepository/InMemoryWineryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/InMemoryRepository/InmemoryUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/InMemoryRepository/InmemoryUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/WineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/WineRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/WineriesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/WineriesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/WineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/WineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/WineryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/WineryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/WineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/WineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/WineryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/WineryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/About_usController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/About_usController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/DiscoverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/DiscoverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/RouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/RouteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/StarterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/StarterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/WineryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/WineryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/wineriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/wineriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/static/Vinarii/Vinarii_Makedonija (1).csv" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/static/Vinarii/Vinarii_Makedonija (1).csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/Starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/Starter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/add-wine.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/add-wine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/discover.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/discover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/edit-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/edit-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/edit-wine.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/edit-wine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/route.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/route.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/wine.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/wine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/wineries.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/wineries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/winery.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/winery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/test/java/com/example/diansdomasna3/DiansDomasna3ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/test/java/com/example/diansdomasna3/DiansDomasna3ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/dians-domasna2/Prototype/Prototip-code">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Leonco1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="825d4b2c-a628-4006-b2dc-d41ee91df266" />
+        <option name="url" value="https://github.com/Leonco1/DIANS-Domasni.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ZqrgOwjIyejNpGTswHS5F5ymwJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Leonid/Desktop/Java/DIANS-Domasni&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.diansdomasna3.Model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DiansDomasna3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dians-domasna3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.diansdomasna3.DiansDomasna3Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.diansdomasna3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DiansDomasna3Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="" />
+      <created>1703160560661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703160560661</updated>
+      <workItem from="1703160562324" duration="222000" />
+      <workItem from="1703160844671" duration="1069000" />
+      <workItem from="1703170763706" duration="5855000" />
+      <workItem from="1703184755508" duration="1215000" />
+      <workItem from="1703200385977" duration="1487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

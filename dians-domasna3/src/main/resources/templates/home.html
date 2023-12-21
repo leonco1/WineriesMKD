@@ -80,6 +80,13 @@
             border: none; /* Remove border */
             cursor: pointer;
         }
+        .shopping{
+            color: white;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            background-color: firebrick;
+        }
     </style>
 </head>
 <body>
@@ -126,6 +133,7 @@
     <form th:method="POST" th:action="@{/home/About-us-redirect}">
         <button style=" border-radius: 12px; padding:30px; background: firebrick " >About us</button>
     </form>
+    <a class="shopping" th:href="@{/shopping-cart}">Shopping Cart</a>
 </div>
 </body>
 </html>

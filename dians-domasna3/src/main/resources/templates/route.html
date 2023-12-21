@@ -126,6 +126,7 @@
     <p style="color: firebrick; display: inline;"> km</p>
 </div>
 <div id="wines">
+
     <h3 style="color: firebrick" th:text="'Types of Wine in ' + ${winery}"></h3>
     <ul>
         <th:block th:each="wine: ${wines}">
@@ -133,9 +134,13 @@
                 <a th:href="@{'/Winery/wine/{id}'(id=${wine.getId()})}">
                     <span style="color: pink; font-size: 18px" th:text="${wine.getName()}"></span>
                 </a>
+                <form th:method="post" th:action="@{'/shopping-cart/add-product/{id}' (id=${wine.getId()})}">
+                <button type="submit" name="wineId" id="wineId" th:value="${wine.getId()}">Add to ShoppingCart</button>
+                </form>
             </li>
         </th:block>
     </ul>
+
 </div>
 
 <div id="bar-div">

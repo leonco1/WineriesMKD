@@ -49,9 +49,8 @@ public class WineServiceImpl implements WineService {
     }
 
     @Override
-    public Optional<Wine> deleteWine(Long id) {
-        Optional<Wine>wine=wineRepository.findById(id);
-        this.wineRepository.delete(wine.get());
-        return wine;
+    public void deleteById(Long id) {
+        this.wineRepository.deleteById(id);
     }
+
 }

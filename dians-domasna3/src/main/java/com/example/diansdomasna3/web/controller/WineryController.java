@@ -69,7 +69,7 @@ public class WineryController {
     @GetMapping("/delete/{id}")
             public String deleteWine(@PathVariable Long id)
     {
-        this.wineService.deleteWine(id);
+        this.wineService.deleteById(id);
         return "redirect:/wineries";
     }
     @PostMapping("/add")

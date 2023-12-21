@@ -3,6 +3,9 @@ package com.example.diansdomasna3.Model;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Data
 @Entity
 @Table(name = "users")
@@ -17,7 +20,8 @@ public class User {
     String address;
     String Location;
     String Date;
-
+    @OneToMany(fetch = FetchType.EAGER,mappedBy = "user")
+    List<Wine> wineList;
     public User(String name, String surname, String username, String password, String address,String date) {
         this.name = name;
         Surname = surname;
@@ -26,6 +30,7 @@ public class User {
         this.address = address;
         this.Location="Skopje";
         Date = date;
+        this.wineList=new ArrayList<>();
     }
 
     public User() {

@@ -13,6 +13,6 @@ public interface WineService {
     Optional<Wine>addWine(String name, WineType wineType, int price, LocalDate year, int size, Wineries wineries);
     Optional<Wine> findById(Long id);
     Optional<Wine>editWine(Long id,int price,int size);
-    Optional<Wine> deleteWine(Long id);
+    void deleteById(Long id);
 
 }
