@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body {
+      height: 1000px;
+    }
+
+    #Home
+    {
+      position: absolute;
+      top: 20px;
+      left: 500px;
+      margin-left: 200px;
+    }
+
+
+
+    #bar {
+      background-color: firebrick;
+      width: 100%;
+      height: 80px;
+      left: 0;
+      bottom: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+    }
+    #bar-div
+    {
+      margin-top: 300px;
+      margin-bottom: -200px;
+      width: 100%;
+      height: 600px;
+    }
+
+    #bar form {
+      margin: 10px; /* Add some margin between buttons */
+    }
+
+    #bar button {
+      border-radius: 12px;
+      padding: 15px; /* Adjust padding */
+      background: firebrick;
+      color: white; /* Add text color */
+      border: none; /* Remove border */
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+<div id="Home">
+  <h1 style="color: firebrick">
+    Reviews
+  </h1>
+</div>
+  <div id="reviews">
+    <th:block th:each="review : ${reviews}">
+      <li>
+        <ul  th:text="'Review: ' +${review.getReview_wine().getName()}+' Score: ' +${review.getScore()}+ ' Description: '+
+    ${review.getDescription()}">
+        </ul>
+      </li>
+    </th:block>
+  </div>
+
+<div id="bar-div">
+  <div id="bar">
+    <form th:method="POST" th:action="@{/home}">
+      <button style=" border-radius: 12px; padding:30px; background: firebrick " >Home</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/wineries-redirect}">
+      <button style=" border-radius: 12px; padding:30px; background: firebrick " >Wineries</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/Profile-redirect}">
+      <button style=" border-radius: 12px; padding:30px; background: firebrick " >Profile</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/Discover-redirect}">
+      <button style=" border-radius: 12px; padding:30px; background: firebrick " >Discover</button>
+    </form>
+    <form th:method="POST" th:action="@{/home/About-us-redirect}">
+      <button style=" border-radius: 12px; padding:30px; background: firebrick " >About us</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>

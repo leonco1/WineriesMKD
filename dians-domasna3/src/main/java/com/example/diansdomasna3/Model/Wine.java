@@ -6,6 +6,7 @@ import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @Entity
@@ -35,6 +36,8 @@ public class Wine {
     Wineries winery;
     @ManyToOne
     User user;
+    @OneToMany(mappedBy = "review_wine")
+    List<Review> reviewList;
     public Wine() {
 
     }

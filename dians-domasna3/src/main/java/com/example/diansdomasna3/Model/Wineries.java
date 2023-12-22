@@ -13,7 +13,7 @@ import java.util.List;
 public class Wineries {
     @Id
     String name;
-    @OneToMany(mappedBy = "winery",fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "winery",fetch = FetchType.EAGER)
     List<Wine> wines;
     public Wineries() {
 

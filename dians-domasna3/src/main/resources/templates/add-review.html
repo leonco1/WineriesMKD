@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!DOCTYPE html>
 <html lang="" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
@@ -119,30 +127,23 @@
 <div id="winery-information">
     <p style="color: firebrick; font-size: 24px; font-style: italic; display: inline;">Selected winery </p>
     <a th:href="@{'/Winery'}">
-        <p style="color: pink; font-size: 18px; display: inline;" th:text="${winery}"></p>
+        <p style="color: pink; font-size: 18px; display: inline;" th:text="${winery.getName()}"></p>
     </a>    <br>
     <h3 style="color: firebrick; display: inline;">Distance </h3>
     <p style="color: pink; display: inline; font-size: 18px">82.4</p>
     <p style="color: firebrick; display: inline;"> km</p>
 </div>
-<div id="wines">
 
-    <h3 style="color: firebrick" th:text="'Types of Wine in ' + ${winery}"></h3>
-    <ul>
-        <th:block th:each="wine: ${wines}">
-            <li>
-                <a th:href="@{'/Winery/wine/{id}'(id=${wine.getId()})}">
-                    <span style="color: pink; font-size: 18px" th:text="${wine.getName()}"></span>
-                </a>
-                <form th:method="post" th:action="@{'/shopping-cart/add-product/{id}' (id=${wine.getId()})}">
-                <button type="submit" name="wineId" id="wineId" th:value="${wine.getId()}">Add to ShoppingCart</button>
-                </form>
-                <button><a th:href="@{'/review/add-review/' + ${wine.getId()}}" style="text-decoration: none">Review</a></button>
-            </li>
-        </th:block>
-    </ul>
 
-</div>
+<form method="post" th:action="@{'/review/' + ${wineId}}">
+    <label>Score:</label>
+    <input type="number" name="score"/>
+    <br/>
+    <label>Description:</label>
+    <input type="text" name="description"/>
+    <br/>
+    <input type="submit" value="Submit"/>
+</form>
 
 <div id="bar-div">
     <div id="bar">
@@ -163,5 +164,8 @@
         </form>
     </div>
 </div>
+</body>
+</html>
+
 </body>
 </html>
