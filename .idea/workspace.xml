@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/ReviewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/ReviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/ReviewServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/ReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/add-review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/reviews.html" afterDir="false" />
+    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni">
+      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/enumerations/FoodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/FoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/FoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/FoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/food.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd/storage_v2/_src_/database/Winery.MMxwmg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd/storage_v2/_src_/database/Winery.MMxwmg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/BootStrap/DataHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/BootStrap/DataHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wineries.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wineries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/enumerations/WineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/enumerations/WineType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/WineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/WineRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/RouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/RouteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/route.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/route.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -86,6 +89,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -156,8 +160,25 @@
       <workItem from="1703184755508" duration="1215000" />
       <workItem from="1703200385977" duration="1487000" />
       <workItem from="1703263153600" duration="972000" />
-      <workItem from="1703264175722" duration="3737000" />
+      <workItem from="1703264175722" duration="11310000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Review Functionalities">
+      <option name="closed" value="true" />
+      <created>1703267928185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703267928185</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni">
+      <option name="closed" value="true" />
+      <created>1703268096914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703268096914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,5 +197,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added Review Functionalities" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/FoodServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/FoodServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/FoodController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/FoodController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/FoodServiceImpl.java</url>
+          <line>26</line>
+          <properties class="com.example.diansdomasna3.service.impl.FoodServiceImpl" method="findAllById">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

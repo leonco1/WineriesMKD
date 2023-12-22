@@ -138,6 +138,9 @@
                 <button type="submit" name="wineId" id="wineId" th:value="${wine.getId()}">Add to ShoppingCart</button>
                 </form>
                 <button><a th:href="@{'/review/add-review/' + ${wine.getId()}}" style="text-decoration: none">Review</a></button>
+
+                <button><a th:href="@{'/food/' + ${wine.getId()}}" style="text-decoration: none">Food Pairings</a></button>
+
             </li>
         </th:block>
     </ul>

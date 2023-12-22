@@ -30,6 +30,15 @@ public class Wine {
         this.size = size;
         this.winery = winery;
     }
+    public Wine(String name, WineType wineType, int price, LocalDate year, int size, Wineries winery,List<Food>foods) {
+        this.name = name;
+        this.wineType = wineType;
+        this.price = price;
+        this.year = year;
+        this.size = size;
+        this.winery = winery;
+        this.foods=foods;
+    }
 
     @ManyToOne
     @JoinColumn(name = "winery_Name")
@@ -38,6 +47,12 @@ public class Wine {
     User user;
     @OneToMany(mappedBy = "review_wine")
     List<Review> reviewList;
+
+    @ManyToMany(cascade = CascadeType.MERGE,fetch = FetchType.EAGER)
+            @JoinTable(name = "food_reccomend",
+            joinColumns = @JoinColumn(name = "food_id"),
+            inverseJoinColumns = @JoinColumn(name = "wine_id"))
+    List<Food>foods;
     public Wine() {
 
     }
