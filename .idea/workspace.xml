@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="sizif">
+    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment=":(">
       <change afterPath="$PROJECT_DIR$/dians-domasna3.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +166,7 @@
       <workItem from="1703264175722" duration="11605000" />
       <workItem from="1703341462397" duration="18000" />
       <workItem from="1703431990434" duration="51000" />
-      <workItem from="1703434616113" duration="2166000" />
+      <workItem from="1703434616113" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="Added Review Functionalities">
       <option name="closed" value="true" />
@@ -242,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703436279492</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":(">
+      <option name="closed" value="true" />
+      <created>1703436796797</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703436796797</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +275,8 @@
     <MESSAGE value="Still trying to host it" />
     <MESSAGE value="End me" />
     <MESSAGE value="sizif" />
-    <option name="LAST_COMMIT_MESSAGE" value="sizif" />
+    <MESSAGE value=":(" />
+    <option name="LAST_COMMIT_MESSAGE" value=":(" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
