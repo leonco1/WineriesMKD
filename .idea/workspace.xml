@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="Added hosting things">
+    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="End me">
       <change afterPath="$PROJECT_DIR$/dians-domasna3.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +128,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DiansDomasna3Application" />
@@ -152,7 +155,7 @@
       <workItem from="1703264175722" duration="11605000" />
       <workItem from="1703341462397" duration="18000" />
       <workItem from="1703431990434" duration="51000" />
-      <workItem from="1703434616113" duration="777000" />
+      <workItem from="1703434616113" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="Added Review Functionalities">
       <option name="closed" value="true" />
@@ -186,7 +189,39 @@
       <option name="project" value="LOCAL" />
       <updated>1703434687223</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Trying to host it">
+      <option name="closed" value="true" />
+      <created>1703435449430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703435449430</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Trying to host it">
+      <option name="closed" value="true" />
+      <created>1703435804026</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703435804026</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Still trying to host it">
+      <option name="closed" value="true" />
+      <created>1703435908173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703435908173</updated>
+    </task>
+    <task id="LOCAL-00008" summary="End me">
+      <option name="closed" value="true" />
+      <created>1703435993525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703435993525</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +244,10 @@
     <MESSAGE value="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni" />
     <MESSAGE value="Added Food Recommendations for Wines" />
     <MESSAGE value="Added hosting things" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hosting things" />
+    <MESSAGE value="Trying to host it" />
+    <MESSAGE value="Still trying to host it" />
+    <MESSAGE value="End me" />
+    <option name="LAST_COMMIT_MESSAGE" value="End me" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
