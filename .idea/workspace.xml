@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="Added Food Recommendations for Wines">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd.xml" afterDir="false" />
+    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="Added hosting things">
+      <change afterPath="$PROJECT_DIR$/dians-domasna3.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/StarterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/StarterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/Starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/Dockerfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -151,6 +152,7 @@
       <workItem from="1703264175722" duration="11605000" />
       <workItem from="1703341462397" duration="18000" />
       <workItem from="1703431990434" duration="51000" />
+      <workItem from="1703434616113" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="Added Review Functionalities">
       <option name="closed" value="true" />
@@ -176,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703279393535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added hosting things">
+      <option name="closed" value="true" />
+      <created>1703434687223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703434687223</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +208,8 @@
     <MESSAGE value="Added Review Functionalities" />
     <MESSAGE value="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni" />
     <MESSAGE value="Added Food Recommendations for Wines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Food Recommendations for Wines" />
+    <MESSAGE value="Added hosting things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added hosting things" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
