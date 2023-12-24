@@ -12,7 +12,7 @@ public class StarterController {
 @GetMapping
     public String getHomePage()
 {
-return "Starter";
+return "index";
 }
 @PostMapping("/login-start")
         public String getLoginPage()

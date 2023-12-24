@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni">
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/enumerations/FoodType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/FoodRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/FoodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/service/impl/FoodServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/FoodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/food.html" afterDir="false" />
+    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="Added Food Recommendations for Wines">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd/storage_v2/_src_/database/Winery.MMxwmg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc33ffc1-4cf7-4acd-8f3d-75a7ba58b1dd/storage_v2/_src_/database/Winery.MMxwmg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/BootStrap/DataHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/BootStrap/DataHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/Wine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/enumerations/WineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/Model/enumerations/WineType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/WineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/repository/jpa/WineRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/RouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/RouteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/route.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/route.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/StarterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/java/com/example/diansdomasna3/web/controller/StarterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/Starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/dians-domasna3/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,35 +73,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Leonid/Documents/GitHub/DIANS-Domasni",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Leonid/Documents/GitHub/DIANS-Domasni&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.diansdomasna3.Model" />
@@ -160,7 +148,9 @@
       <workItem from="1703184755508" duration="1215000" />
       <workItem from="1703200385977" duration="1487000" />
       <workItem from="1703263153600" duration="972000" />
-      <workItem from="1703264175722" duration="11310000" />
+      <workItem from="1703264175722" duration="11605000" />
+      <workItem from="1703341462397" duration="18000" />
+      <workItem from="1703431990434" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="Added Review Functionalities">
       <option name="closed" value="true" />
@@ -178,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703268096914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Food Recommendations for Wines">
+      <option name="closed" value="true" />
+      <created>1703279393535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703279393535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +197,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added Review Functionalities" />
     <MESSAGE value="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/Leonco1/DIANS-Domasni" />
+    <MESSAGE value="Added Food Recommendations for Wines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Food Recommendations for Wines" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
