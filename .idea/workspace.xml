@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment=":(">
+    <list default="true" id="caa12392-1122-4214-ad7e-0c366a6245a1" name="Changes" comment="please work">
       <change afterPath="$PROJECT_DIR$/dians-domasna3.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +128,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="dians-domasna3/Dockerfile build" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
@@ -166,7 +169,10 @@
       <workItem from="1703264175722" duration="11605000" />
       <workItem from="1703341462397" duration="18000" />
       <workItem from="1703431990434" duration="51000" />
-      <workItem from="1703434616113" duration="2700000" />
+      <workItem from="1703434616113" duration="4719000" />
+      <workItem from="1703448702410" duration="2000" />
+      <workItem from="1703456740311" duration="846000" />
+      <workItem from="1703605140966" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Added Review Functionalities">
       <option name="closed" value="true" />
@@ -248,7 +254,39 @@
       <option name="project" value="LOCAL" />
       <updated>1703436796797</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=":(">
+      <option name="closed" value="true" />
+      <created>1703437424655</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703437424655</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ne znam">
+      <option name="closed" value="true" />
+      <created>1703438044670</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703438044670</updated>
+    </task>
+    <task id="LOCAL-00013" summary=":( :(">
+      <option name="closed" value="true" />
+      <created>1703438421752</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703438421753</updated>
+    </task>
+    <task id="LOCAL-00014" summary="please work">
+      <option name="closed" value="true" />
+      <created>1703438956677</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703438956677</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +314,10 @@
     <MESSAGE value="End me" />
     <MESSAGE value="sizif" />
     <MESSAGE value=":(" />
-    <option name="LAST_COMMIT_MESSAGE" value=":(" />
+    <MESSAGE value="Ne znam" />
+    <MESSAGE value=":( :(" />
+    <MESSAGE value="please work" />
+    <option name="LAST_COMMIT_MESSAGE" value="please work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

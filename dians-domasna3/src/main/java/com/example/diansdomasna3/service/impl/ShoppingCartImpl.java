@@ -61,20 +61,32 @@ public class ShoppingCartImpl implements ShoppingCartService {
 
     @Override
     public ShoppingCart addWineToShoppingCart(String username, Long wineId) {
-        Wine wine = this.wineRepository.findById(wineId)
+        Wine wine = getWineById(wineId);
+        ShoppingCart shoppingCart = getActiveShoppingCart(username);
+
+        checkIfWineAlreadyInCart(wine, shoppingCart, username);
+
+        shoppingCart.getWineList().add(wine);
+        return saveShoppingCart(shoppingCart);
+    }
+
+    private Wine getWineById(Long wineId) {
+        return wineRepository.findById(wineId)
                 .orElseThrow(() -> new WineNotFoundException(wineId));
-        ShoppingCart shoppingCart = this.getActiveShoppingCart(username);
+    }
+
+    private void checkIfWineAlreadyInCart(Wine wine, ShoppingCart shoppingCart, String username) {
         List<Wine> winesInShoppingCart = shoppingCart.getWineList().stream()
-                .filter(i -> i.getId().equals(wineId))
+                .filter(i -> i.getId().equals(wine.getId()))
                 .collect(Collectors.toList());
 
         if (!winesInShoppingCart.isEmpty()) {
-            throw new WineAlreadyInShoppingCartException(wineId, username);
+            throw new WineAlreadyInShoppingCartException(wine.getId(), username);
         }
+    }
 
-        shoppingCart.getWineList().add(wine);
-        return this.shoppingCartRepository.save(shoppingCart);
-
+    private ShoppingCart saveShoppingCart(ShoppingCart shoppingCart) {
+        return shoppingCartRepository.save(shoppingCart);
     }
 
     @Override

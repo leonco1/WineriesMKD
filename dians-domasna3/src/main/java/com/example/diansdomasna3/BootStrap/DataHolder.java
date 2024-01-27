@@ -41,7 +41,7 @@ public class DataHolder {
         }
         if(adminRepository.count()==0)
         {
-            administrators.add(new Administrator("Zvonko","Trajkoski","zvonko.trajkoski","zt"));
+            administrators.add(new Administrator("admin","admin","admin","admin"));
             adminRepository.saveAll(administrators);
         }
         if(wineriesRepository.count()==0) {
